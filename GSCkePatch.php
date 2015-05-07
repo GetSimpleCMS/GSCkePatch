@@ -14,10 +14,10 @@ $pluginid = "GSCkePatch";
 function init_GSCkePatch($pluginid){
 	$thisfile = basename(__FILE__, ".php");	// Plugin File
 	$name     = $pluginid;
-	$version  = "0.2";
+	$version  = "0.3";
 	$author   = "getsimple";
 	$url      = "http://get-simple.info";
-	$desc     = "Overrides ckeditor 3.x with 4.4.6";
+	$desc     = "Overrides ckeditor 3.x with 4.4.7";
 	$type     = "";
 	$func     = "";
 
