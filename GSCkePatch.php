@@ -16,7 +16,7 @@ function init_GSCkePatch($pluginid){
 	$name     = $pluginid;
 	$version  = "0.2";
 	$author   = "getsimple";
-	$url      = "http://getsimple-cms.info";
+	$url      = "http://get-simple.info";
 	$desc     = "Overrides ckeditor 3.x with 4.4.6";
 	$type     = "";
 	$func     = "";
