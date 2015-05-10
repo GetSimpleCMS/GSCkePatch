@@ -26,7 +26,7 @@ function init_GSCkePatch($pluginid){
 
 init_GSCkePatch($pluginid);
 
-if($HTMLEDITOR && get_filename_id() == 'edit'){
+if(get_filename_id() == 'edit' && $HTMLEDITOR){
 	add_action("header",$pluginid.'_header',$pluginid);
 	add_action("edit-content",$pluginid.'_edit_content');
 }
